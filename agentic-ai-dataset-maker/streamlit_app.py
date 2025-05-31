@@ -3,7 +3,7 @@ import pandas as pd
 import openai
 from utils.github_utils import push_to_github
 
-openai.api_key = st.secrets.get("OPENAI_API_KEY", "your-openai-key-here")
+openai.api_key = st.secrets.get("OPENAI_API_KEY", "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")
 
 DEFAULT_COLUMNS = 4
 DEFAULT_ROWS = 10
